@@ -69,6 +69,15 @@
     <Build Include="tables\UserProfiles.sql" />
     <Build Include="Views\vUserProfiles.sql" />
     <Build Include="Functions\GetFullAge.sql" />
+    <Build Include="Tables\Tasks.sql" />
+    <Build Include="Tables\TaskStates.sql" />
+    <Build Include="Tables\UserTasks.sql" />
+    <Build Include="Tables\TaskTracks.sql" />
+    <Build Include="Procedures\DeleteUser.sql" />
+    <None Include="SeedData\TaskStatesSeedData.sql" />
+    <Build Include="Procedures\SetUserTaskAsSuccess.sql" />
+    <Build Include="Procedures\SetUserTaskAsFail.sql" />
+    <Build Include="Procedures\DeleteTask.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SeedData\UserProfilesSeedData.sql" />
